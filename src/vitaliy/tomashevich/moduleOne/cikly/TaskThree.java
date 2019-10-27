@@ -1,4 +1,4 @@
-package vitaliy.tomashevich.cikly;
+package vitaliy.tomashevich.moduleOne.cikly;
 
 //          Найти сумму квадратов первых ста чисел.
 
