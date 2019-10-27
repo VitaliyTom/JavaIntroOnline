@@ -1,4 +1,4 @@
-package VitaliyTom.vetvlenija;
+package vitaliy.tomashevich.vetvlenija;
 
 import java.util.Random;
 

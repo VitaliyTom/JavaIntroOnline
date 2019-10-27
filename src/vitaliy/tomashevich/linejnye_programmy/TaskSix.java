@@ -1,4 +1,4 @@
-package VitaliyTom.linejnye_programmy;
+package vitaliy.tomashevich.linejnye_programmy;
 
 import java.util.Scanner;
 

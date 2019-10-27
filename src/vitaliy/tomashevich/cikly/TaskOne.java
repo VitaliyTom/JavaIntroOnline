@@ -1,4 +1,4 @@
-package VitaliyTom.cikly;
+package vitaliy.tomashevich.cikly;
 
 import java.util.Scanner;
 
