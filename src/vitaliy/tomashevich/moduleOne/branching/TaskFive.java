@@ -1,4 +1,4 @@
-package vitaliy.tomashevich.vetvlenija;
+package vitaliy.tomashevich.moduleOne.branching;
 
 import java.util.Random;
 

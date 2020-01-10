@@ -1,4 +1,4 @@
-package vitaliy.tomashevich.moduleOne.cikly;
+package vitaliy.tomashevich.moduleOne.cycles;
 
 //  Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.
 

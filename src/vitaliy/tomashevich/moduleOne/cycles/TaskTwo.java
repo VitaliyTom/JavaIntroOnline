@@ -1,4 +1,4 @@
-package vitaliy.tomashevich.moduleOne.cikly;
+package vitaliy.tomashevich.moduleOne.cycles;
 
 import java.util.Random;
 

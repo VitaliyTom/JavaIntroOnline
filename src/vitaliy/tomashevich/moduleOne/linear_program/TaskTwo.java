@@ -1,17 +1,17 @@
-package vitaliy.tomashevich.moduleOne.linejnye_programmy;
+package vitaliy.tomashevich.moduleOne.linear_program;
 
 import java.util.Scanner;
 
-//      Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
+//      Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 
-public class TaskOne {
+public class TaskTwo {
 
     public static void main(String[] args) {
 
         float a;
         float b;
         float c;
-        float z;
+        double z;
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,10 +24,9 @@ public class TaskOne {
         System.out.println("Введите c : ");
         c = sc.nextFloat();
 
-        z = ((a - 3) * b / 2) + c;
+        z = ((b + Math.sqrt((b * b) + (4 * a * c))) / (2 * a)) - (Math.pow(a, 3) * c) + Math.pow(b, -2);
 
-        System.out.println("\n" + "z = " + z);
-
+        System.out.println(z);
 
     }
 }
