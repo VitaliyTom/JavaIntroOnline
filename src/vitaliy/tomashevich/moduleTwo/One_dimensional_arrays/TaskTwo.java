@@ -11,10 +11,10 @@ public class TaskTwo {
 
     public static void main(String[] args) {
 
-        int z;
+        double z;
         int n;
         int replacement = 0;
-        int[] mass;
+        double[] mass;
 
         Random rnd = new Random();
         Scanner sc = new Scanner(System.in);
@@ -24,22 +24,23 @@ public class TaskTwo {
         do {
             System.out.println("Введите число Z : ");
 
-            while (!sc.hasNextInt()) {
+            while (!sc.hasNextDouble()) {
                 sc.next();
                 System.out.println("Введите число Z : ");
             }
 
-            z = sc.nextInt();
+            z = sc.nextDouble();
 
-        } while (z < 0 || z > 25);
+        } while (z < -25 || z > 25);
 
-        mass = new int[n];
+        mass = new double[n];
         System.out.println("N = " + n);
 
         for (int i = 0; i < mass.length; i++) {
 
-            mass[i] = rnd.nextInt(25);
-            System.out.print(mass[i] + ". ");
+            mass[i] =  Math.round((rnd.nextDouble()*50-25) * 10000d) / 10000d;  // берем диапазон от [-25;25)
+                                                                                // и оставляем 4 нуля после запятой
+            System.out.print(mass[i] + ", ");
 
             if (mass[i] > z) {
                 mass[i] = z;
@@ -50,7 +51,7 @@ public class TaskTwo {
 
         for (int i = 0; i < mass.length; i++) {
 
-            System.out.print(mass[i] + ". ");
+            System.out.print(mass[i] + ", ");
         }
         System.out.println("\n" + "Количество замен = " + replacement);
     }
