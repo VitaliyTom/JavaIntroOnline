@@ -1,10 +1,10 @@
 package vitaliy.tomashevich.moduleTwo.One_dimensional_arrays;
 
-//      В массив A [N] занесены натуральные числа.
-//      Найти сумму тех элементов, которые кратны данному К.
-
 import java.util.Random;
 import java.util.Scanner;
+
+//      В массив A [N] занесены натуральные числа.
+//      Найти сумму тех элементов, которые кратны данному К.
 
 public class TaskOne {
     public static void main(String[] args) {
